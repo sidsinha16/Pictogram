@@ -1,0 +1,143 @@
+
+
+body{
+    margin:0;
+    font-family:"Roboto";
+    background: #eaeaea;
+}
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+
+
+/* =======================================
+                    BANNER
+==========================================*/
+
+.banner .main_cover {
+    background:url('../images/cover.png');
+    height:400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 465px;
+}
+
+.banner .logo {
+    font-family: 'Monoton', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 62px;
+    color: #FFF;
+    font-size: 43px;
+    text-align: center;
+}
+
+.banner span {
+    display: block;
+    height: 20px;
+    background: #2196F3;
+}
+
+/* =======================================
+                ARTISTS LIST
+==========================================*/
+
+.artists_list{
+    box-sizing:border-box;
+    padding:10px 30px;
+}
+.artists_list .styles{
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    width: 100%;
+    height: 56px;
+    font-size: 45px;
+    color: #f11496;
+}
+.artists_list .artist_item{
+    display:block;
+    height:900px;
+    background-size: cover !important;
+    margin-bottom:20px;
+    position:relative;
+}
+.artists_list .artist_item div{
+    background: #009ad3;
+    position: absolute;
+    bottom: 0px;
+    padding: 15px;
+    color: #fff;
+}
+
+
+
+
+/* =======================================
+                    HEADER
+==========================================*/
+
+.header {
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    font-size: 89px;
+    border-bottom: 1px solid #2196F3;
+    color: #949494;
+}
+
+/* =======================================
+                ARTISTS BIO
+==========================================*/
+
+span.img {
+    display: block;
+    height: 900px;
+    background-size: cover !important;
+    margin-bottom: 20px;
+    position: relative;
+}
+span.images{
+    display: block;
+    height: 900px;
+    background-size: cover !important;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+.albums_list h1 {
+    font-size: 56px !important;
+}
+
+.artist_bio {
+    box-sizing: border-box;
+    padding: 10px 30px;
+}
+
+div .name {
+    font-size: 100px;
+    align: center;
+    font-family: cursive;
+    padding: 6px 138px;
+    background: #000;
+    color: #fff;
+}
+
+div.bio {
+    font-family: fantasy;
+    box-sizing: border-box;
+    padding: 32px 56px;
+    background: #64328f;
+    color: #ffffff;
+    font-size: 14px;
+}
+.albums_list:after {
+    clear: both;
+    display: table;
+    content:''
+}
